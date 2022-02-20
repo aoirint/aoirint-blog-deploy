@@ -7,7 +7,11 @@ Repository to deploy blog.aoirint.com.
 ## Deploy workflow
 
 ```mermaid
-graph TD;
+flowchart TD
+    subgraph legend
+        branch
+        workflow([workflow])
+    end
     gatsby[aoirint-web/blog.aoirint.com-gatsby: main]--push-->gatsby-dispatch
     gatsby-dispatch([aoirint-web/blog.aoirint.com-gatsby: Dispatch workflow])--workflow_dispatch-->deploy([aoirint-web/blog.aoirint.com: Deploy to GitHub Pages])
     contents[aoirint-web/blog.aoirint.com-contents: main]--push-->contents-dispatch
