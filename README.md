@@ -9,7 +9,6 @@ Repository to deploy blog.aoirint.com.
 ```mermaid
 flowchart TB
     subgraph legend
-        direction LR
         branch[repo: branch]
         workflow([repo: workflow])
     end
