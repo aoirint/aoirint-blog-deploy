@@ -7,8 +7,9 @@ Repository to deploy blog.aoirint.com.
 ## Deploy workflow
 
 ```mermaid
-flowchart TD
+flowchart TB
     subgraph legend
+        direction LR
         branch[repo: branch]
         workflow([repo: workflow])
     end
