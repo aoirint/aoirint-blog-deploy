@@ -16,7 +16,7 @@ jobs:
         with:
           # token: ${{ secrets.GH_PAT }}
           submodules: recursive
-          repository: https://github.com/aoirint-web/blog.aoirint.com-gatsby.git
+          repository: aoirint-web/blog.aoirint.com-gatsby
           path: '.'
 
       - name: Clone contents
@@ -24,7 +24,7 @@ jobs:
         with:
           # token: ${{ secrets.GH_PAT }}
           submodules: recursive
-          repository: https://github.com/aoirint-web/blog.aoirint.com-contents.git
+          repository: aoirint-web/blog.aoirint.com-contents
           path: 'contents'
 
       - name: Setup Node
