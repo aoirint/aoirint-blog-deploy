@@ -21,3 +21,7 @@ flowchart TB
     contents-dispatch([aoirint/blog.aoirint.com-contents: Dispatch workflow])--workflow_dispatch-->deploy
     this[aoirint/blog.aoirint.com-deploy: main]--push-->deploy
 ```
+
+- Deploy: <https://github.com/aoirint/blog.aoirint.com-deploy>
+- Gatsby: <https://github.com/aoirint/blog.aoirint.com-gatsby2>
+- Contents: <https://github.com/aoirint/blog.aoirint.com-contents>
