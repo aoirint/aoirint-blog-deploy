@@ -4,7 +4,7 @@
 
 Repository to deploy blog.aoirint.com.
 
-[![Deploy](https://github.com/aoirint-web/blog.aoirint.com/actions/workflows/deploy.yml/badge.svg)](https://github.com/aoirint-web/blog.aoirint.com/actions/workflows/deploy.yml)
+[![Deploy](https://github.com/aoirint/blog.aoirint.com-deploy/actions/workflows/deploy.yml/badge.svg)](https://github.com/aoirint/blog.aoirint.com-deploy/actions/workflows/deploy.yml)
 
 
 ## Deploy workflow
