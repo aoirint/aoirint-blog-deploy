@@ -29,9 +29,9 @@ jobs:
           path: |
             ./public
             ./.cache
-          key: ${{ runner.os }}-gatsby-build-cache-v1-${{ github.sha }}
+          key: ${{ runner.os }}-gatsby-build-cache-v2-${{ github.sha }}
           restore-keys: |
-            ${{ runner.os }}-gatsby-build-cache-v1-
+            ${{ runner.os }}-gatsby-build-cache-v2-
 
       - name: Build
         run: |
