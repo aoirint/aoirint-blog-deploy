@@ -36,6 +36,7 @@ jobs:
       - name: Build
         run: |
           mkdir -p ./public ./.cache
+          sudo chown -R 1000:1000 ./public ./.cache
 
           docker run --rm \
             -v "$PWD/public:/work/public" \
