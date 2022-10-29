@@ -57,7 +57,7 @@ jobs:
           mkdir -p ./public ./.cache ./contents
           sudo chown -R "1000:1000" ./public ./.cache ./contents
 
-          docker run --rm \
+          docker run --rm --init \
             -v "$PWD/public:/work/public" \
             -v "$PWD/.cache:/work/.cache" \
             -v "$PWD/contents:/work/contents" \
