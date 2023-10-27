@@ -1,4 +1,4 @@
-# blog.aoirint.com
+# aoirint-blog-deploy
 
 - <https://blog.aoirint.com>
 
