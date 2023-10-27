@@ -49,7 +49,7 @@ jobs:
         with:
           # token: ${{ secrets.GH_PAT }}
           submodules: recursive
-          repository: aoirint/blog.aoirint.com-contents
+          repository: aoirint/aoirint-blog-contents
           path: 'contents'
 
       - name: Build
@@ -61,7 +61,7 @@ jobs:
             -v "$PWD/public:/work/public" \
             -v "$PWD/.cache:/work/.cache" \
             -v "$PWD/contents:/work/contents" \
-            "ghcr.io/aoirint/blog.aoirint.com-gatsby2:latest"
+            "ghcr.io/aoirint/aoirint-blog-gatsby2:latest"
 
           sudo chown -R "$(id -u):$(id -g)" ./public ./.cache ./contents
 
